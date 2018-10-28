@@ -1,10 +1,8 @@
 {
-  "name": "sumofother",
+  "name": "codejam-3",
   "version": "1.0.0",
-  "description": "sumOfOther",
-  "main": "sumOfOther.js",
   "scripts": {
-    "test": "mocha test.js",
+    "test": "mocha ./**/*.test.js",
     "checkstyle": "eslint ./src/**/*.js",
     "checkstyle:fix": "eslint ./src/**/*.js --fix"
   },
